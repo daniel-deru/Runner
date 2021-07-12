@@ -1,0 +1,5 @@
+License agreement
+
+This software uses the MIT license and is completely free and open source to use and distribute.
+
+This software may not be sold for monetary value.
