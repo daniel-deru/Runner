@@ -3,3 +3,11 @@ License agreement
 This software uses the MIT license and is completely free and open source to use and distribute.
 
 This software may not be sold for monetary value.
+
+Modifying this software and rebranding it as your own is stricly forbidden. 
+
+If the user wants to modify this software please contact the creator at danielderu3@gmail.com and state the reason for the modification. 
+
+If the creator agrees to the above mentioned request the user must state that the software has been modified by: and then the users name as well as the details of the original creator.
+
+The user must attach this license agreement to the modified software and is not allowed to change the license agreement.

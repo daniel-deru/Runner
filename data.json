@@ -1,6 +1,10 @@
 {
-  "desktop": [],
-  "desktop_is_checked": [],
+  "desktop": [
+    "C:/Users/danie/AppData/Local/Figma/Figma.exe"
+  ],
+  "desktop_is_checked": [
+    true
+  ],
   "website": [],
   "website_is_checked": [],
   "website_name": []

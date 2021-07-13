@@ -8,7 +8,7 @@ from inspect import currentframe, getframeinfo
 
 from PyQt5.QtGui import QFont, QFontDatabase, QIcon
 from PyQt5.QtWidgets import QApplication, QWidget, QFileDialog, QMessageBox, QCheckBox, QVBoxLayout, QFormLayout, \
-    QLabel, QLineEdit, QPushButton
+    QLabel, QLineEdit, QPushButton, QScrollBar
 from OpenApps2 import Ui_OpenApps
 
 # this regex is used to find the name of the app in the path
@@ -83,6 +83,8 @@ class Main(QWidget, Ui_OpenApps):
         self.setFont(self.my_font)
 
         self.setWindowIcon(QIcon("icon.png"))
+
+
 
         # All the connections
         self.insert_app_button.clicked.connect(self.add_desktop)
@@ -416,17 +418,21 @@ main_stylesheet = """
     }
     QCheckBox {
         margin-left: 20px;
-        font: 35px
+        font: 25px
     }
     QCheckBox::indicator {
         width: 35px;
         height: 35px
     }
     QCheckBox::indicator:checked {
-        image: url(tick.png)
+        image: url(tick.png);
+        width: 25px;
+        height: 25px
     }
     QCheckBox::indicator:unchecked {
-        image: url(cross.png)
+        image: url(cross.png);
+        width: 25px;
+        height: 25px;
     }
     QFrame {
         border: 10px solid white;
